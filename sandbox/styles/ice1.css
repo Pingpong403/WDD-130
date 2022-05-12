@@ -20,6 +20,10 @@ h1 {
     font-size: 30px;
 }
 
+h1:hover {
+    color: black;
+}
+
 .small-quote {
     font-size: 15px;
 }
