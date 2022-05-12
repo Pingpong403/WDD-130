@@ -1,0 +1,41 @@
+html {
+    background-color: #FCA6C9;
+}
+
+.main-article {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cool-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.white-text {
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.small-quote {
+    font-size: 15px;
+}
+
+.large-quote {
+    font-size: 30px;
+}
+
+.main-article ol {
+    font-weight: bold;
+    text-align: left;
+    line-height: 200%;
+}
+
+footer p {
+    max-width: 400px;
+    margin: 4px auto;
+    text-align: center;
+}
