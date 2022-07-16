@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Calendar</title>
 </head>
 <body>
-    <header class="three-icons">
+    <header>
         <a href="index.html" class="calendar-icon">
             <img src="images/Home_Page_Icon.png" alt="Home page">
         </a>
@@ -18,17 +19,15 @@
             <img src="images/Budget_Center_Icon.png" alt="Budget center">
         </a>
     </header>
-    <main>
+    <main class="main-page">
         <div class="schedule-button">
             <button type="button">Schedule</button>
         </div>
-        <section class="calendar">
+        <section class="whole-calendar">
             <h2 class="calendar-title">My Calendar</h2>
-            <h3 class="month-and-year">
-                January 2021
-            </h3>
-              
-            <table>
+            <h3 class="month-and-year">January 2021</h3>
+            <table class="calendar" bgcolor="lightgrey" align="center" 
+            cellspacing="21" cellpadding="21">
                 <caption>
                 </caption>
                 <thead>
@@ -39,7 +38,7 @@
                         <th>Wed</th>
                         <th>Thu</th>
                         <th>Fri</th>
-                        <th>sat</th>
+                        <th>Sat</th>
                     </tr>
                 </thead>
                   
@@ -53,7 +52,6 @@
                         <td>1</td>
                         <td>2</td>
                     </tr>
-                    <tr></tr>
                     <tr>
                         <td>3</td>
                         <td>4</td>
@@ -92,12 +90,12 @@
                     </tr>
                     <tr>
                         <td>31</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
+                        <td style="color: lightgray;">1</td>
+                        <td style="color: lightgray;">2</td>
+                        <td style="color: lightgray;">3</td>
+                        <td style="color: lightgray;">4</td>
+                        <td style="color: lightgray;">5</td>
+                        <td style="color: lightgray;">6</td>
                     </tr>
                 </tbody>
             </table>
@@ -107,11 +105,11 @@
         <div class="logo-box">
             <img src="images/my_calendar_logo.png" alt="My Calendar logo">
         </div>
-        <section class="footer-links">
+        <div class="footer-links">
             <a href="#">Email</a>
             <a href="#">Help</a>
             <a href="site-plan.html">Site Plan</a>
-        </section>
+        </div>
     </footer>
 </body>
 </html>

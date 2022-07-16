@@ -1,0 +1,95 @@
+/* Shared */
+:root {
+    font-family: Lato, Helvetica, sans-serif;
+}
+main {
+    background-color: #A9B4C2;
+}
+
+/* Header */
+header {
+    background-color: #7D98A1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+    background-color: #1C2321;
+    display: grid;
+    grid-template-columns: 200px auto;
+    box-sizing: border-box;
+}
+.logo-box {
+    width: fit-content;
+}
+.logo-box img {
+    width: 200px;
+}
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.footer-links a {
+    color: #594AE3;
+    text-decoration: none;
+    font-size: 40px;
+}
+.footer-links a:hover {
+    color: #AE9EE8;
+}
+
+/* Calendar page */
+.main-page {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+.schedule-button {
+    padding: 50px 0 0 0;
+    grid-column: 2/3;
+    justify-self: center;
+}
+.schedule-button button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    background-color: #BAC5D3;
+}
+.whole-calendar {
+    grid-column: 2/3;
+    align-self: center;
+    padding: 0 0 50px 0;
+}
+.calendar-title {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: green;
+    text-align: center;
+}
+.month-and-year {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.calendar {
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+th, td { 
+    font-weight: bold;
+}
+th {
+    background-color: #AE9EE8;
+}
+
+/* Activity center */
+
+
+/* Budget center */
