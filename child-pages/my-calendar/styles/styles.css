@@ -90,6 +90,54 @@ th {
 }
 
 /* Activity center */
-
+.activity-center {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+.activity-input {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 4fr 1fr 1fr 6fr 1fr 1fr;
+    justify-items: center;
+}
+.activity-header {
+    grid-row: 1/2;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.activity-name {
+    grid-row: 2/3;
+    width: 70%;
+}
+.activity-description {
+    grid-row: 4/5;
+    width: 70%;
+}
+.activity-enter-button {
+    grid-row: 6/7;
+    width: 70%;
+}
+.activity-buckets {
+    margin: 100px 0 75px 0;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 218px 218px;
+    align-items: center;
+    justify-items: center;
+}
+.activity-bucket5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.activity-bucket6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
 
 /* Budget center */
